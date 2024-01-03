@@ -2,6 +2,9 @@
 
 import { Category } from "@prisma/client";
 import {
+  FcAssistant,
+  FcBarChart,
+  FcCollaboration,
   FcEngineering,
   FcFilmReel,
   FcMultipleDevices,
@@ -26,6 +29,9 @@ const iconMap: Record<Category["name"], IconType> = {
   "Computer Science": FcMultipleDevices,
   "Filming": FcFilmReel,
   "Engineering": FcEngineering,
+  "Business Intelligence": FcBarChart,
+  "Project Management": FcCollaboration,
+  "Risk Management": FcAssistant
 };
 
 export const Categories = ({
